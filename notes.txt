@@ -1,1 +1,26 @@
+# React in Action: From Setup to Deployment
+    # Tools:
+        -   Node.js
+        -   Vite
+        -   Pico css
+            https://picocss.com/
+            https://picocss.com/docs
+
+            npm install @picocss/pico
+
+            Add to index.js
+            import '@picocss/pico/css/pico.min.css';
+            import '@picocss/pico/css/pico.colors.css';
+
+        - React Developer Tools
+    
+    #   Templating with JSX
+    #   Working with Components
+    #   Using hooks 
+    #   Using effects
+    #   Dealing with state and effects
+    #   Create event trigger
+    #   Building a modal
+    #   Refactoring data
+    #   Building a navigation
 
