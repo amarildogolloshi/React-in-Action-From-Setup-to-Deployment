@@ -24,4 +24,5 @@
     #   Refactoring data
     #   Building a navigation
     #   Creating buttons in our modal
+    #   Toggling the app's theme
 
