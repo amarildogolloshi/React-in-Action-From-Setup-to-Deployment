@@ -1,4 +1,4 @@
-const Nav = () => {
+const Nav = ({cast, onChoice}) => {
     return(
         <nav className="container">
             <ul>
@@ -9,6 +9,25 @@ const Nav = () => {
                 </li>
                 <li><strong>Stargazers</strong></li>
             </ul>
+            <ul>
+                <li>
+                    <details className="dropdown">
+                        <summary>Cast</summary>
+                        <ul dir="rtl">
+                            {
+                                cast.map( member => (
+                                <li key={member.id}>
+                                    <a href="#" onClick={ () => {onChoice(member)} } > 
+                                        {member.name}
+                                    </a>
+                                </li>
+                                ) )
+                            }
+                        </ul>
+                    </details>
+                </li>
+            </ul>
+
 
         </nav>
     )
