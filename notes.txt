@@ -25,4 +25,7 @@
     #   Building a navigation
     #   Creating buttons in our modal
     #   Toggling the app's theme
-
+    #   Using custom icons
+            # Tabler Icon
+            https://tabler.io/icons
+    #   Using CSS with React
