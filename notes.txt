@@ -32,3 +32,5 @@
         https://picocss.com/
     #   Custome font and icons
         Use google font website
+    #   Building and publishing
+        npm run build
